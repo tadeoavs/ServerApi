@@ -1,0 +1,14 @@
+Crear servidor
+npm init
+
+-------------------------------------
+
+Modificar el json en script
+    "script": {
+        "dev": "nodemon /src/index.js"
+    }
+
+--------------------------------------
+
+Instalar modulos express y nodemon
+npm i express nodemon
