@@ -36,13 +36,5 @@ app.use('/api/usuarios', usuarios);
 //     res.send('Hola soy alumno y quiero eliminar');
 // })
 
-const MySQLdata = {
-    host: process.env.MYSQL_HOST,
-    user: process.env.MYSQL_USER,
-    password: process.env.MYSQL_PASSWORD,
-    database: process.env.MYSQL_BD
-}
-
-console.log(MySQLdata)
 
 module.exports = app;
